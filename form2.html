@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="css\form2.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <img src="assets\img\socius.png" alt="Imagen Socius">
+            <input type="email" name="email" id="email" placeholder="Email" required="true">
+            <input type="password" name="password" id="password" placeholder="Password" required="true">
+            <select name="ciudad" id="ciudad" required="true">
+                <option disabled selected>Ciudad</option>
+                <option value="Santiago"> Santiago</option>
+                <option value="Valparaíso"> Valparaíso</option>
+                <option value="Villa Alemana"> Villa Alemana</option>
+                <option value="Osorno"> Osorno</option>
+            </select>
+            <div class="checkpass">
+                <input type="checkbox" name="recordar" id="recordar" value="recordar">
+                <label for="recordar">Recordar contraseña</label>
+            </div>
+            <input type="submit" value="Enviar" id="button" onclick="showData()">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

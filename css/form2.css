@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fafafa;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+.container{
+    width: 600px;
+    border: 2px solid #2aa4f6;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #2aa4f6;
+}
+
+#ciudad{
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #2aa4f6;
+}
+
+.checkpass{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+#recordar{
+    width: auto;
+    margin-top: 0px;
+    margin-right: 10px;
+}
